@@ -58,5 +58,5 @@ footer {
 }
 
 img[alt="Hunter"] {
-    object-position: center 20%; 
+    object-position: center 15% !important;
 }
