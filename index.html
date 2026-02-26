@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="es" data-bs-theme="dark">
+<head>
+    <meta charset="UTF-8">
+    <title>Bloodborne - Expo de Bootstrap</title>
+
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+
+    <link rel="stylesheet" href="estilos.css">
+
+</head>
+
+<body>
+
+<!-- NAVBAR -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top">
+  <div class="container">
+    <a class="navbar-brand" href="#">Bloodborne</a>
+
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#menu">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+
+    <div class="collapse navbar-collapse" id="menu">
+      <ul class="navbar-nav ms-auto">
+        <li class="nav-item"><a class="nav-link" href="#inicio">Inicio</a></li>
+        <li class="nav-item"><a class="nav-link" href="#insight">Insight</a></li>
+        <li class="nav-item"><a class="nav-link" href="#mundo">El Sueño</a></li>
+        <li class="nav-item"><a class="nav-link" href="#jefes">Jefes</a></li>
+        <li class="nav-item"><a class="nav-link" href="#contacto">Contacto</a></li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- SECCIÓN INICIO -->
+<section id="inicio" class="container my-5 pt-5">
+  <div class="row align-items-center">
+    
+    <div class="col-md-6">
+      <img src="images/bloodborne welcome.jpg" class="img-fluid rounded shadow" alt="Ciudad de Yharnam">
+    </div>
+
+    <div class="col-md-6">
+      <h2>Un sueño gótico y oscuro</h2>
+      <p>
+        Bloodborne es una experiencia ambientada en una ciudad decadente inspirada en el horror cósmico. El jugador descubre que todo ocurre dentro de un sueño, donde la realidad y la locura se entrelazan constantemente. Personalmente, es mi juego favorito porque me acompañó en momentos en los que me sentía sola; me enseñó que los videojuegos no son solo entretenimiento, sino espacios que pueden brindar compañía, reflexión y una conexión emocional profunda a través de su mundo gótico y su narrativa misteriosa.
+      </p>
+    </div>
+
+  </div>
+</section>
+
+<!-- INSIGHT -->
+<section id="insight" class="container my-5">
+  <h2 class="text-center mb-4">El Insight</h2>
+
+  <div class="alert alert-danger text-center">
+    A mayor Insight, comienzas a ver criaturas que antes eran invisibles.
+  </div>
+
+  <p class="text-center">
+    El Insight representa la capacidad de percibir la verdad oculta del mundo.
+    Cuanto más sabes, más perturbadora se vuelve la realidad.
+  </p>
+</section>
+
+<!-- PERSONAJES -->
+<section id="mundo" class="container my-5">
+  <h2 class="text-center mb-4">El Sueño del Cazador</h2>
+
+  <div class="row text-center">
+
+<div class="col-md-4 mb-4">
+  <div class="card bg-dark text-light h-100">
+        <img src="images/gehrman-burial-blade.avif" class="card-img-top" alt="Gehrman">
+        <div class="card-body">
+          <h5 class="card-title">Gehrman</h5>
+          <p class="card-text">El primer cazador y guía dentro del sueño.</p>
+        </div>
+      </div>
+    </div>
+
+<div class="col-md-4 mb-4">
+  <div class="card bg-dark text-light h-100">
+        <img src="images/lady maria.avif" class="card-img-top" alt="Lady Maria">
+        <div class="card-body">
+          <h5 class="card-title">Lady Maria</h5>
+          <p class="card-text">Cazadora experta atrapada en su propia culpa.</p>
+        </div>
+      </div>
+    </div>
+
+<div class="col-md-4 mb-4">
+  <div class="card bg-dark text-light h-100">
+        <img src="images/never-realized-how-good-the-playstation-store-banners-for-v0-1torc7x1mnb81.jpg" class="card-img-top" alt="Hunter">
+        <div class="card-body">
+          <h5 class="card-title">El Cazador</h5>
+          <p class="card-text">El protagonista que busca escapar del sueño.</p>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</section>
+
+<!-- CARRUSEL -->
+<section id="jefes" class="container my-5">
+  <h2 class="text-center mb-4">Grandes Jefes</h2>
+
+  <div id="carruselJefes" class="carousel slide">
+    <div class="carousel-inner">
+
+      <div class="carousel-item active">
+        <img src="images/lud3wig.jpg" class="d-block w-100" alt="Ludwig">
+      </div>
+
+      <div class="carousel-item">
+        <img src="images/Screenshot 2023-11-08 21-25-38.png" class="d-block w-100" alt="Orphan of Kos">
+      </div>
+
+            <div class="carousel-item">
+        <img src="images/maxresdefault.jpg" class="d-block w-100" alt="Orphan of Kos">
+      </div>
+
+    </div>
+
+    <button class="carousel-control-prev" type="button" data-bs-target="#carruselJefes" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon"></span>
+    </button>
+
+    <button class="carousel-control-next" type="button" data-bs-target="#carruselJefes" data-bs-slide="next">
+      <span class="carousel-control-next-icon"></span>
+    </button>
+  </div>
+</section>
+
+<!-- FOOTER -->
+<footer id="contacto" class="bg-dark text-light p-4 text-center">
+  <p>¿Te atreverías a entrar al sueño?</p>
+  <form class="container">
+    <input type="email" class="form-control mb-2" placeholder="Tu correo">
+    <button class="btn btn-danger">Enviar</button>
+  </form>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+
+<!-- Tu JS -->
+<script src="js/script.js"></script>
+
+</body>
+</html>

@@ -1,0 +1,62 @@
+body {
+    background-color: #0d0d0d;
+    color: #e0e0e0;
+}
+
+h2 {
+    color: #bb2d3b;
+}
+
+.navbar {
+    background-color: #111 !important;
+}
+
+.card {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+}
+
+.card-img-top {
+    height: 250px !important; 
+    width: 100%;
+    object-fit: cover;       
+    object-position: center; 
+}
+
+.card-body {
+    flex-grow: 1;            
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between; 
+}
+
+.card-title {
+  font-size: 1.25rem;      
+  font-weight: 600;
+  white-space: nowrap;    
+  overflow: hidden;
+  text-overflow: ellipsis; 
+}
+
+.card-text {
+    display: -webkit-box;
+    -webkit-line-clamp: 2; 
+    -webkit-box-orient: vertical;
+    overflow: hidden;
+    font-size: 0.95rem;
+    opacity: 0.85;
+}
+
+footer {
+    background-color: #111;
+}
+
+.carousel-item img {
+    height: 500px;
+    object-fit: cover;
+}
+
+img[alt="Hunter"] {
+    object-position: center 20%; 
+}
