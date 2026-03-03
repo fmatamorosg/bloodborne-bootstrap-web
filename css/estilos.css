@@ -3,6 +3,7 @@ body {
     color: #e0e0e0;
 }
 
+
 h2 {
     color: #bb2d3b;
 }
@@ -38,6 +39,8 @@ h2 {
   overflow: hidden;
   text-overflow: ellipsis; 
 }
+
+
 
 .card-text {
     display: -webkit-box;
